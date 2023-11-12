@@ -6,7 +6,7 @@ export const ProductsGrid = styled.div`
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
-  margin-bottom: 5rem;
+  margin-bottom: 6.5rem;
   margin-left: 30px;
   @media (max-width: 1510px) {
     display: flex;
@@ -31,7 +31,6 @@ export const ProductInfo = styled.div`
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  padding: 3px;
 `;
 
 export const Image = styled.img`
@@ -72,7 +71,7 @@ export const BuyButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 350px;
+  width: 300px;
   height: auto;
   background-color: #007bff;
   color: white;

@@ -41,7 +41,7 @@ const ProductsList: React.FC<ProductsListProps> = ({ products }) => {
           </ProductDescription>
           <BuyButton onClick={() => handleAddToCart(product)}>
             <MdAddShoppingCart size={25} />
-            <h3>Comprar</h3>
+            <h3>COMPRAR</h3>
           </BuyButton>
         </ProductContainer>
       ))}

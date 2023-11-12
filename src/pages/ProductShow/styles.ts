@@ -10,7 +10,7 @@ export const FilterByStatusContainer = styled.section`
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 3rem;
+  margin-top: 4.5rem;
 `;
 
 export const ProductsGrid = styled.div`
