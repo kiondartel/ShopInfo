@@ -71,7 +71,8 @@ export const BuyButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 300px;
+  width: 350px;
+
   height: auto;
   background-color: #007bff;
   color: white;
