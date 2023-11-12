@@ -47,6 +47,8 @@ export const ItemsGrid = styled.div`
   flex-direction: column;
   justify-content: center;
   margin-top: 3rem;
+  max-height: 500px;
+  overflow-y: auto;
 `;
 export const CartItem = styled.div`
   position: relative;
@@ -56,7 +58,7 @@ export const CartItem = styled.div`
   width: 80%;
   height: 85px;
   background-color: #fff;
-  margin-top: 2rem;
+  margin-top: 0.9rem;
   border-radius: 10px;
 `;
 
