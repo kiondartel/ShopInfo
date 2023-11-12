@@ -7,6 +7,10 @@ export const ShoppingCartWrapper = styled.div`
   border-radius: 10px;
   gap: 7px;
   cursor: pointer;
+  margin-right: 5rem;
+  @media (max-width: 550px) {
+    margin-right: 0;
+  }
 `;
 
 export const CartItemCount = styled.span`
