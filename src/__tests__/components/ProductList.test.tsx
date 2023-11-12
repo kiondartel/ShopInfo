@@ -27,7 +27,7 @@ describe("ProductsList", () => {
       </Provider>
     );
 
-    fireEvent.click(screen.getAllByText("Comprar")[0]!);
+    fireEvent.click(screen.getAllByText("COMPRAR")[0]!);
 
     expect(spy).toHaveBeenCalledWith(addProductToCart(mockProducts[0]));
     spy.mockRestore();
