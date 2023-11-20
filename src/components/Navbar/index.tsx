@@ -10,8 +10,8 @@ const NavBar: React.FC = () => {
   return (
     <NavbarContainer>
       <Brand to="/">
-        <h1>MKS</h1>
-        <p>Sistemas</p>
+        <h1>Info</h1>
+        <p>Shop</p>
       </Brand>
       <ShoppingCart total={totalItemsInCart} itens={cartItems} />
     </NavbarContainer>
