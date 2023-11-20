@@ -4,6 +4,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
+  height: 100vh;
 `;
 
 export const FilterByStatusContainer = styled.section`
