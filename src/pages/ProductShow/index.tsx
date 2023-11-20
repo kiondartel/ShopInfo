@@ -27,13 +27,11 @@ const ProductShow: React.FC = () => {
 
   return (
     <Container>
-      <NavBar />
       <FilterByStatusContainer>
         {isLoading && <Loader />}
         {error && <p>Error: {error.message}</p>}
         {products && <ProductsList products={products} />}
       </FilterByStatusContainer>
-      <Footer />
     </Container>
   );
 };
